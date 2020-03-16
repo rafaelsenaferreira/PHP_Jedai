@@ -44,5 +44,4 @@
 		$adminController->index();
 	});
 
-
 ?>
