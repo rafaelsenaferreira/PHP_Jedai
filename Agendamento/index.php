@@ -60,7 +60,7 @@
 							$sql->execute();
 
 							//vamos mostrar apenas as horas que são maiores que as horas atuais com o strtotime > time
-							//é por que eu não tenho nenhum horário agendado, caso contrário o horário aparece
+							//é por que dseu não tenho nenhum horário agendado, caso contrário o horário aparece
 							if($sql->rowCount() == 0 && strtotime($verifica) > time()){
 								$dataHora = date('d/m/Y').' '.$hora;								
 								echo '<option value="'.$dataHora.'">'.$dataHora.'</option>';
