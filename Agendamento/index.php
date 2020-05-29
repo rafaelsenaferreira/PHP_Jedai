@@ -1,6 +1,6 @@
 <?php
 	date_default_timezone_set('America/Bahia');
-	$pdo = new PDO('mysql:host=bancodedados;dbname=dados','usuario','');
+	$pdo = new PDO('mysql:host=bancodedados;dbname=bancodedados','usuario','senha');
 ?>
 
 <!DOCTYPE html>
