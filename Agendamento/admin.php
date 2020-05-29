@@ -15,7 +15,7 @@
 	<header>
 		<div class="center">
 			<div class="logo">
-				<h2>Danki Code</h2>
+				<h2>Empresa</h2>
 			</div>
 
 			<nav class="menu">
